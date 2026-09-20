@@ -10,3 +10,8 @@ strategy:
   atr_stop_multiplier: 1.5
   reward_r_multiple: 3.0
   use_fvg_filter: true
+mt5:
+  symbol: XAUUSD
+  timeframe: M15
+  bars: 2000
+  demo_only: true
