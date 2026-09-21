@@ -9,7 +9,8 @@ strategy:
   atr_period: 14
   atr_stop_multiplier: 1.5
   reward_r_multiple: 3.0
-  use_fvg_filter: true
+  choch_window: 4
+  minimum_confluence: 2
 mt5:
   symbol: XAUUSD
   timeframe: M15
